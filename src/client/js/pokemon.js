@@ -5,6 +5,7 @@ export class Pokemon extends Pokedex {
     super(name, number, type);
     this._evolves = evolves;
   }
+
   get evolves() {
     return this._evolves;
   }
