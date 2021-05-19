@@ -1,19 +1,19 @@
 import { Pokemon } from "../pokemon";
 
-class Bulbasaur extends Pokemon {
+class Ivysaur extends Pokemon {
   constructor(name, number, type, evolves) {
     super(name, number, type, evolves);
   }
   _stats = {
-    hp: 45,
-    attack: 49,
-    defense: 49,
-    special: 65,
-    speed: 45,
+    hp: 60,
+    attack: 62,
+    defense: 63,
+    special: 80,
+    speed: 60,
   };
   _moves = {
-    tackle: "Tackle",
-    growl: "Growl",
+    sleepPowder: "Sleep Powder",
+    leechSeed: "Leech Seed",
     vineWhip: "Vine Whip",
     razorLeaf: "Razor Leaf",
   };
@@ -26,4 +26,4 @@ class Bulbasaur extends Pokemon {
   }
 }
 
-export const bulbasaur = new Bulbasaur("Bulbasaur", 1, "Grass", true);
+export const ivysaur = new Ivysaur("Ivysaur", 2, "Grass", true);

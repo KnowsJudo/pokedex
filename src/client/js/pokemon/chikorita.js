@@ -1,21 +1,21 @@
 import { Pokemon } from "../pokemon";
 
-class Bulbasaur extends Pokemon {
+class Chikorita extends Pokemon {
   constructor(name, number, type, evolves) {
     super(name, number, type, evolves);
   }
   _stats = {
     hp: 45,
     attack: 49,
-    defense: 49,
-    special: 65,
+    defense: 65,
+    special: 57,
     speed: 45,
   };
   _moves = {
     tackle: "Tackle",
     growl: "Growl",
-    vineWhip: "Vine Whip",
     razorLeaf: "Razor Leaf",
+    synthesis: "Synthesis",
   };
   get stats() {
     return this._stats;
@@ -26,4 +26,4 @@ class Bulbasaur extends Pokemon {
   }
 }
 
-export const bulbasaur = new Bulbasaur("Bulbasaur", 1, "Grass", true);
+export const chikorita = new Chikorita("Chikorita", 152, "Grass", true);

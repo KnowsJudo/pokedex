@@ -28,6 +28,8 @@ const convertMon = () => {
   }
 };
 
+const revertMon = () => {};
+
 export const onSubmit = () => {
   const find = document.getElementById("submit");
   find.addEventListener("click", findMon);
