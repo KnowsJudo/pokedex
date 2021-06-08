@@ -1,4 +1,5 @@
-import { onSubmit, onConvert } from "./js/form";
+import { onSubmit, onConvert, onImage } from "./js/form";
 
 onSubmit();
 onConvert();
+onImage();

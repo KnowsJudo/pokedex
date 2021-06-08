@@ -1,3 +1,4 @@
+import { getImage } from "../../server/image";
 import { database } from "./database";
 
 const findMon = (i) => {
@@ -38,4 +39,9 @@ export const onSubmit = () => {
 export const onConvert = () => {
   const convert = document.getElementById("convert");
   convert.addEventListener("click", convertMon);
+};
+
+export const onImage = () => {
+  const findImage = document.getElementById("imageSubmit");
+  findImage.addEventListener("click", getImage);
 };
