@@ -1,4 +1,4 @@
-import { getImage } from "../../server/image";
+import { getImage } from "./utils/image";
 import { database } from "./database";
 
 const findMon = (i) => {
